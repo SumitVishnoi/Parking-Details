@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enteries</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body >
+    <div class="entery-container">
+        <div class="navbar">
+            <h1 class="heading">Parking Details</h1>
+            <div class="nav-features">
+                <ul class="list">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="Enteries.html">entries</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="feedback.html">feedback</a></li>
+                </ul>
+            </div>
+    
+            
+            <div class="nav-input">
+                <form class="form">
+                    <input type="search" class="input" placeholder="Please enter your text...">
+                    <button class="nav-btn">search</button>
+                </form>
+            </div>
+    
+            <!-- <span class="material-symbols-outlined icon"> menu</span> -->
+             <span class="hamburgar">
+                <div class="off-screen-menu">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="Enteries.html">entries</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="feedback.html">feedback</a></li>
+                    </ul>
+                </div>
+            
+                <nav>
+                    <div class="ham-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+             </span>
+               
+            </div>
+
+            <div class="middle-content">
+                <div class="middle_entery">
+                    <p>Bus entries =><span class="bus">0</span></p>
+                    <p>Car entries =><span class="car">0</span></p>
+                    <p>Bike entries =><span class="bike">0</span></p>
+                    <p>Cycle entries =><span class="cycle">0</span></p>
+                    <p class="total">Total entries =><span class="total-amount"></span></p>
+                </div> 
+            </div>
+            
+            <div class="markentry-list">
+                
+                    <div class="entery-list">
+                        <h3>Enter Vehicle Number !</h3>
+                        <input type="text" placeholder="Enter a vehicle number" id="entery-list-input" name="vehicle-number">
+                        <input type="text" placeholder="Enter a vehicle name" id="entery-name-input" name="vehicle-name">
+                        
+                        <select name="Select Amount" id="select-field">
+                            <option>Select Amount</option>
+                            <option value="100">Bus Amount</option>
+                            <option value="50">Car Amount</option>
+                            <option value="30">Bike Amount</option>
+                        </select>
+                        <button id="entery-list-btn">Done</button>
+                    </div>
+                
+            </div>
+           
+            <div class="buttons-container">
+                <div class="buttons">
+                    <div class="buttons1">
+                    <button class="bus-btn Ebtn">bus</button>
+                    <button class="car-btn Ebtn">Car</button>
+                    <button class="bike-btn Ebtn">Bike</button>
+                    <button class="cycle-btn Ebtn">Cycle</button>
+                    <button class="total-btn Ebtn">Total</button>
+                    </div>
+                    <div class="buttons2">
+                    <button class="bus-del Dbtn">Delete</button>
+                    <button class="car-del Dbtn">Delete</button>
+                    <button class="bike-del Dbtn">Delete</button>
+                    <button class="cycle-del Dbtn">Delete</button>
+                    <button class="total-del Dbtn">Details</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+           <div class="details">
+                <div class="ExitBtn">
+                    <button>Exit</button>
+                </div>
+                <div class="details-span">
+                    <div class="items">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="enteries.js"></script>
+</body>
+</html>
